@@ -6,7 +6,7 @@
   --purple: #70387C;
   --orange: #F67D4F;
   --lastGrid: #FBF5EE;
-  --inactive: #A997A5;
+  --inactive: #87728C;
   --widgets: #F5F4F5;
   --buttonsCol: #0F1422;
 
@@ -31,5 +31,5 @@ body{
   border-radius: 2rem;
   overflow: hidden;
   background-color: var(--mainCol);
-  grid-template-columns: 11rem auto 20rem;
+  grid-template-columns: 13rem auto 20rem;
 }
