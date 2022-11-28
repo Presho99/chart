@@ -1,0 +1,103 @@
+.compact-card{
+    display: flex;
+    flex: 1;
+    height: 9rem!important;
+    border-radius: 0.7rem;
+    position: relative;
+    cursor: pointer;
+    padding: 1rem 0.8rem;
+    justify-content: space-between;
+}
+
+.compact-card:hover{
+    box-shadow: none!important;
+    transition: all 300ms ease-in;
+}
+
+.detail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+
+.detail-title{
+    
+    color: var(--mainCol);
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    
+}
+
+.task{
+    color: var(--mainCol);
+}
+
+.circle{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.detail-images{
+    display: flex;
+}
+
+.detail-images .circle.one{
+    color: var(--bground);
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--buttonsCol);
+    margin-right: -9px;
+    z-index: 100;
+}
+
+.two{
+    margin-right: -9px;
+    z-index: 1;
+}
+
+
+
+.circle img{
+    width: 1.9em;
+    height: 1.9em;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.radial-bar{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.CircularProgressbar{
+    width: 4rem !important;
+    overflow: visible;
+}
+
+.CircularProgressbar-path{
+    stroke: white!important;
+    stroke-width: 12px !important; 
+}
+
+.CircularProgressbar-trail{
+    display: none;
+}
+
+.CircularProgressbar-text{
+    fill: white!important;
+    font-weight: 600;
+    
+}
